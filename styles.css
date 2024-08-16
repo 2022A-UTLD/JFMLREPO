@@ -64,8 +64,10 @@
 /* Estilos de la sección de héroe */
 .hero-section {
     position: relative;
-    background: url('https://assets.pokemon.com/assets/cms2/img/misc/_tiles/pokemon-go/08072023/pokemon-go-169.jpg') no-repeat center center/cover;
-    height: 400px;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Pokemon_GO_2023_Event.png/1920px-Pokemon_GO_2023_Event.png') no-repeat center center;
+    background-size: cover;
+    height: 1080px;
+    width: 100%;
     color: white;
     text-align: center;
 }
@@ -112,6 +114,9 @@
 .content-card img {
     width: 100%;
     height: auto;
+    max-width: 1920px;
+    max-height: 1080px;
+    object-fit: cover;
 }
 
 .button-box {
